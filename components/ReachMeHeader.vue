@@ -1,7 +1,7 @@
 <template>
   <section class="reachme flex lg:justify-center text-xs py-3 px-8">
     <span>Reach me at
-      <a href="mailto:tomas@mate.computer" class="text-blue-500">
+      <a href="mailto:tomas@mate.computer" class="text-blue-700">
         tomas@mate.computer
       </a>
     </span>

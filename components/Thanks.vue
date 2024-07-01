@@ -5,7 +5,7 @@
     </h2>
     <p>
       You can see
-      <a href="https://github.com/milgron/portfolio" class="text-blue-500"> the source code of this project here</a>, and you can reach me at <a href="mailto:tomas@mate.computer" class="text-blue-500"> tomas@mate.computer</a>.
+      <a href="https://github.com/milgron/portfolio" class="text-blue-700"> the source code of this project here</a>, and you can reach me at <a href="mailto:tomas@mate.computer" class="text-blue-700"> tomas@mate.computer</a>.
     </p>
   </section>
 </template>

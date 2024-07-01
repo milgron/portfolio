@@ -3,6 +3,10 @@ defineProps({
   flip: {
     type: Boolean,
     default: false
+  },
+  section: {
+    type: String,
+    default: null
   }
 })
 </script>
@@ -10,7 +14,7 @@ defineProps({
 <template>
   <section class="grid grid-cols-1 lg:grid-cols-2 gap-4">
     <div class="border border-gray-500 rounded bg-white h-full order-2 lg:order-1">
-      {{ flip }}
+      {{ section }}
     </div>
     <div class="grid gap-4 order-1 lg:order-2">
       <div
