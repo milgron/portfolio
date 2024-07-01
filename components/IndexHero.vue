@@ -5,23 +5,26 @@
         Almost a decade <br />
         <span class="font-light relative ff-imbue">
           crafting experiences.
-          <img
+          <NuxtImg
             src="/underline.png"
             alt="underline sketch"
             class="absolute bottom-0 mx-auto"
-          >
+            preload
+          />
         </span>
       </h1>
-      <img
+      <NuxtImg
         src="/hero_cell.png"
         alt="abstract cell sketch"
         class="absolute left-0 lg:left-0 lg:right-0 lg:mx-auto -top-24 w-48 z-0"
+        preload
       />
-      <img
+      <NuxtImg
         src="/hero_gif.gif"
         alt="abstract sketches gif"
         class="absolute w-96 -top-48 -left-24 lg:-left-12 z-0"
-        >
+        preload
+      />
     </div>
     <h2 class="mt-8">
       From <span class="underline">product conception,</span><br>

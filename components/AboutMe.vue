@@ -1,5 +1,5 @@
 <template>
-  <section class="mt-48 py-12 flex justify-center items-center flex-col w-8/12 mx-auto text-center gap-2">
+  <section class="mt-48 py-12 flex lg:justify-center lg:items-center flex-col w-10/12 lg:w-8/12 mx-auto lg:text-center gap-2">
     <h2 class="ff-imbue text-7xl">
       More about me
     </h2>
