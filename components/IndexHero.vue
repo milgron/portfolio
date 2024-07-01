@@ -24,7 +24,7 @@
         >
     </div>
     <h2 class="mt-8">
-      from <span class="underline">product conception</span> <br>
+      From <span class="underline">product conception,</span><br>
       to <span class="underline">UI/UX design</span>, and <span class="underline">front-end.</span> <br>
       <span class="font-bold">A designer who codes.</span> 
     </h2>

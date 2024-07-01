@@ -13,7 +13,10 @@ defineProps({
       {{ flip }}
     </div>
     <div class="grid gap-4 order-1 lg:order-2">
-      <div :class="flip ? 'lg:order-2' : 'lg:order-1'">
+      <div
+        :class="flip ? 'lg:order-2' : 'lg:order-1'"
+        class="flex flex-col gap-4"
+      >
         <h2 class="ff-imbue text-6xl">product conception</h2>
         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus facere veritatis ad repellat fuga ullam necessitatibus obcaecati quae at? Ex quasi rerum cupiditate mollitia porro. Illum, facilis praesentium? Quod, soluta?</p>
       </div>
