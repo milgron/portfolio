@@ -7,12 +7,16 @@ defineProps({
   section: {
     type: String,
     default: null
-  }
+  },
+  mediaType: {
+    type: [String, Boolean],
+    default: null
+  },
 })
 </script>
 
 <template>
-  <section class="grid grid-cols-1 lg:grid-cols-2 gap-4 pt-8" :id="section">
+  <section class="grid grid-cols-1 lg:grid-cols-2 gap-8 pt-8" :id="section">
     <div
       :class="flip ? 'lg:order-1' : 'lg:order-2'"
       class="grid gap-4"
@@ -26,10 +30,19 @@ defineProps({
       </div>
     </div>
     <div
+      v-if="mediaType"
       :class="flip ? 'lg:order-2' : 'lg:order-1'"
-      class="border border-gray-500 rounded bg-white h-96"
+      class="bg-gray-50 flex items-center justify-center"
     >
-      {{ section }}
+      <video v-if="mediaType == 'video'" src="/uiux.mp4" preload autoplay muted loop class="" />
     </div>
   </section>
 </template>
+
+<style>
+video {
+  width: 580px;
+    height: 340px;
+    object-fit: cover;
+}
+</style>
