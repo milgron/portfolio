@@ -2,8 +2,10 @@
 
 html {
   scroll-behavior: smooth;
+  cursor: url('/cursor.svg'),  auto;
 }
 
 li {
   @apply list-decimal ml-4;
 }
+
