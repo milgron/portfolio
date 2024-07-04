@@ -7,7 +7,7 @@
       <NuxtImg
         src="/exclamation.png"
         alt="exclamation mark"
-        class="absolute -right-6 top-1"
+        class="absolute -right-6 -top-4 lg:top-1 -bottom-2 lg:bottom-2 my-auto h-full"
         preload
         loading="lazy"
       />

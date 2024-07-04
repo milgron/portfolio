@@ -2,7 +2,7 @@
 export default defineNuxtConfig({
   app: {
     head: {
-      title: 'tomas.mate.computer'
+      title: 'tomás milgron'
     }
   },
   devtools: { enabled: true },

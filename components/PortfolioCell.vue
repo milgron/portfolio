@@ -26,12 +26,12 @@ defineProps({
       class="grid gap-4 px-8"
     >
       <div class="flex flex-col gap-4">
-        <div class="relative">
+        <div class="relative w-fit">
           <h2 class="ff-imbue text-6xl z-10 relative">{{ section }}</h2>
           <NuxtImg
             :src="`/bg-${section}.png`"
             :alt="`Background image for ${section}`"
-            class="absolute top-0 z-0"
+            class="absolute top-0 z-0 bottom-0 my-auto left-0 right-0 w-full"
             preload
             loading="lazy"
           />

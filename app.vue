@@ -1,12 +1,12 @@
 <script setup>
 useHead({
-  title: 'tomas.mate.computer'
+  title: 'tomás milgron'
 })
 
 useSeoMeta
 ({
-  title: 'tomas.mate.computer',
-  ogTitle: 'tomas.mate.computer',
+  title: 'tomás milgron',
+  ogTitle: 'tomás milgron',
   description: 'Welcome to my portfolio site :)',
   ogDescription: 'Welcome to my portfolio site :)',
   ogImage: 'https://tomas.mate.computer/hero_cell.png',
