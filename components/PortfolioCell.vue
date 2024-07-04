@@ -28,10 +28,17 @@ defineProps({
       <div class="flex flex-col gap-4">
         <div class="relative">
           <h2 class="ff-imbue text-6xl z-10 relative">{{ section }}</h2>
-          <img :src="`/bg-${section}.png`" alt="bg for title" class="absolute top-0 z-0">
+          <NuxtImg
+            :src="`/bg-${section}.png`"
+            :alt="`Background image for ${section}`"
+            class="absolute top-0 z-0"
+            preload
+            loading="lazy"
+          />
         </div>
         <ContentDoc
           :path="`/en/${section}`"
+          :head="false"
           class="text-sm leading-7"
         />
       </div>

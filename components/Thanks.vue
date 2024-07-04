@@ -4,7 +4,13 @@
       <h2 class="ff-imbue text-7xl">
         Thanks
       </h2>
-      <img src="/exclamation.png" alt="exclamation mark" class="absolute -right-6 top-1">
+      <NuxtImg
+        src="/exclamation.png"
+        alt="exclamation mark"
+        class="absolute -right-6 top-1"
+        preload
+        loading="lazy"
+      />
     </div>
     <p>
       You can see
