@@ -17,7 +17,8 @@ defineProps({
 
 <template>
   <section
-    class="grid gap-8 pt-8 grid-cols-1 lg:grid-cols-2" :id="section"
+    :class="mediaType == 'just-text' ? 'lg:grid-cols-1' : 'lg:grid-cols-2'"
+    class="grid gap-8 pt-8 grid-cols-1" :id="section"
   >
     <div
       :class="flip ? 'lg:order-1' : 'lg:order-2'"
@@ -32,30 +33,18 @@ defineProps({
       </div>
     </div>
     <div
-      v-if="mediaType"
+      v-if="mediaType == 'video'"
       :class="flip ? 'lg:order-2' : 'lg:order-1'"
-      class="bg-gray-50 flex overflow-hidden h-[450px] md:h-[600px] lg:h-[450px]"
+      class="bg-white flex overflow-hidden h-[450px] md:h-[600px] lg:h-[450px] justify-center lg:justify-start"
     >
       <video 
         v-if="mediaType == 'video'" 
-        :src="`/${section}.mp4`" 
+        :src="`/${section}-bgwhite.mp4`" 
         preload 
         autoplay 
         muted 
-        loop 
-        class="border border-red-500"
-        :class="`video-${section}`" 
+        loop
       />
     </div>
   </section>
 </template>
-
-<style>   
-.video-ui-ux {
-  transform: scale(1.54);
-}
-.video-front-end {
-  transform: scale(1.7);
-  border: 1px solid blue;
-}
-</style>
