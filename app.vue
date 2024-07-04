@@ -1,10 +1,14 @@
 <script setup>
 useHead({
-  title: 'tomás milgron'
+  title: 'tomás milgron',
+  script: {
+    'src': "https://plausible.io/js/script.js",
+    'defer': true,
+    'data-domain': "tomas.mate.computer"
+  }
 })
 
-useSeoMeta
-({
+useSeoMeta({
   title: 'tomás milgron',
   ogTitle: 'tomás milgron',
   description: 'Welcome to my portfolio site :)',
