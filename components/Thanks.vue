@@ -1,5 +1,5 @@
 <template>
-  <section class="py-12 flex lg:justify-center lg:items-center flex-col w-10/12 lg:w-8/12 mx-auto lg:text-center gap-2">
+  <section class="py-12 flex lg:justify-center lg:items-center flex-col px-8 lg:px-12 mx-auto lg:text-center gap-2 max-w-6xl">
     <div class="relative flex w-fit">
       <h2 class="ff-imbue text-7xl">
         Thanks
