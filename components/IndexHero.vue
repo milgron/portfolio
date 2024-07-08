@@ -27,7 +27,7 @@
       />
     </div>
     <h2 class="mt-8">
-      From <a href="#product-conception" class="underline">product conception,</a><br>
+      From <a href="#product" class="underline">product conception,</a><br>
       to <a href="#ui-ux" class="underline">UI/UX design</a>, and <a href="#front-end" class="underline">front-end.</a> <br>
       <span class="font-bold">A designer who codes.</span> 
     </h2>
