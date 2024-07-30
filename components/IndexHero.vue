@@ -29,7 +29,7 @@
     <h2 class="mt-8">
       From <a href="#product" class="underline">product conception,</a><br>
       to <a href="#ui-ux" class="underline">UI/UX design</a>, and <a href="#front-end" class="underline">front-end.</a> <br>
-      <span class="font-bold">A designer who codes.</span> 
+      <span class="font-bold">A designer who codes. <NuxtLink to="/blog" class="text-blue-400">And blogs.</NuxtLink></span> 
     </h2>
   </section>
 </template>
