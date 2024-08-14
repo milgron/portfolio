@@ -25,5 +25,8 @@ export default defineNuxtConfig({
   },
   css: [
     '~/assets/main.scss'
-  ]
+  ],
+  routeRules: {
+    '/blog': { redirect: '/'}
+  }
 })

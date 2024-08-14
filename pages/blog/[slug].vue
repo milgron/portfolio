@@ -10,11 +10,11 @@ const { title, author } = await queryContent('es', 'blog').where({ slug: route.p
 </script>
 
 <template>
-  <NuxtLink to="/blog" class="text-xs underline mb-12">
-    Return to Blog index
+  <NuxtLink to="/" class="text-xs underline mb-12 text-center">
+    Return to blog index
   </NuxtLink>
-  <h1 class="mb-0">{{ title }}</h1>
-  <p class="mb-12">{{ AUTHORS[author].name }}</p>
+  <BlogHeader :title="title" />
+  <p class="mb-12 text-center">por {{ AUTHORS[author].name }}</p>
   <NuxtImg
     :src="`/blog/${$route.params.slug}/main.jpg`"
     alt="underline sketch"
