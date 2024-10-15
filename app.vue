@@ -11,8 +11,8 @@ useHead({
 useSeoMeta({
   title: 'tomás milgron',
   ogTitle: 'tomás milgron',
-  description: 'Welcome to my portfolio site :)',
-  ogDescription: 'Welcome to my portfolio site :)',
+  description: 'Welcome to tomas.mate.computer',
+  ogDescription: 'Welcome to tomas.mate.computer',
   ogImage: 'https://tomas.mate.computer/hero_cell.png',
   twitterCard: 'summary_large_image',
 })
