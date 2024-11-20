@@ -2,11 +2,11 @@ My UI/UX approach is based on an iterative process that begins with freehand ske
 
 My experience includes:
 
-* Creating interfaces for complex data management and designing microinteractions that elevate the user experience.
-* Developing surveys and analyzing user feedback to inform design decisions.
-* Producing design systems to unify communication and interfaces for both internal and client products.
-* Product design for various purposes and scales of use.
-* Organizing and executing cross-company workshops to establish priorities and conceptualize product areas.
-* Founding innovative design methodologies in corporate environments.
+* Designing and implementing interfaces across diverse industries, from fintech to e-commerce, always prioritizing the balance between functionality and development time.
+* Creating efficient data visualization solutions that simplify complex information while maintaining usability.
+* Developing surveys and conducting user research to validate design decisions and optimize time-to-market.
+* Building scalable design systems that accelerate development while maintaining consistency across products.
+* Leading cross-functional workshops to align business goals with user needs and technical constraints.
+* Establishing agile design methodologies that improve team collaboration and delivery speed.
 
-Each project is an opportunity to merge aesthetics and functionality, creating interfaces that are not only visually appealing but also intuitive and efficient.
+Each project is an opportunity to find the sweet spot between aesthetics, functionality, and development efficiency. My focus is on creating interfaces that not only look great but also deliver measurable business value within realistic timeframes.

@@ -4,7 +4,7 @@
       <PortfolioCell section="manifesto" media-type="just-text" />
       <PortfolioCell section="product" media-type="just-text" />
     </div>
-    <PortfolioCell section="ui-ux" media-type="video" />
-    <PortfolioCell section="front-end" media-type="video" :flip="true" />
+    <PortfolioCell section="front-end" media-type="video" />
+    <PortfolioCell section="ui-ux" media-type="video" :flip="true" />
   </section>
 </template>
